@@ -5,11 +5,11 @@ create table SalsePerson (SNo int primary key , Sname varchar(10), City varchar(
 ```
 
 ```sql
-insert into SalsePerson values (1001,"Peel","London",.12);
-insert into SalsePerson values (1002,"Serres","San Jose",.13);
-insert into SalsePerson values (1004,"Motika","London",.11);
-insert into SalsePerson values (1007,"Rafkin","Barcelona",.15);
-insert into SalsePerson values (1003,"Axelrod","Now York",.1);
+insert into SalsePerson values (1001,"Peel","London",0.12);
+insert into SalsePerson values (1002,"Serres","San Jose",0.13);
+insert into SalsePerson values (1004,"Motika","London",0.11);
+insert into SalsePerson values (1007,"Rafkin","Barcelona",0.15);
+insert into SalsePerson values (1003,"Axelrod","Now York",0.10);
 ```
 
 ```sql
