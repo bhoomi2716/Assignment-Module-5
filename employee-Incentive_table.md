@@ -22,11 +22,11 @@ CREATE TABLE Incentive (Employee_ref_id int, FOREIGN KEY(Employee_ref_id) REFERE
 ```
 
 ```sql
-insert into Incentive values (1, "01-FEB-13",5000);
-insert into Incentive values (2, "01-FEB-13",3000);
-insert into Incentive values (3, "01-FEB-13",4000);
-insert into Incentive values (1, "01-JAN-13",4500);
-insert into Incentive values (2, "01-JAN-13",3500);
+insert into Incentive values (1, "2013-02-01",5000);
+insert into Incentive values (2, "2013-02-01",3000);
+insert into Incentive values (3, "2013-02-01",4000);
+insert into Incentive values (1, "2013-01-01",4500);
+insert into Incentive values (2, "2013-01-01",3500);
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
