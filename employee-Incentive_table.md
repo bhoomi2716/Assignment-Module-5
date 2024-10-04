@@ -5,14 +5,14 @@ create table Employee (Employee_id int primary key, First_name varchar(10), Last
 ```
 
 ``` sql
-insert into Employee values (1, "John","Abraham",1000000, "01-JAN-13 12.00.00 AM","Banking");
-insert into Employee values (2, "Michael","Clarke",800000, "01-JAN-13 12.00.00 AM","Insurance");
-insert into Employee values (3, "Roy","Thomas",700000, "01-FEB-13 12.00.00 AM","Banking");
-insert into Employee values (4, "Tom","Jose",600000, "01-FEB-13 12.00.00 AM","Insurance");
-insert into Employee values (5, "Jerry","Pinto",650000, "01-FEB-13 12.00.00 AM","Insurance");
-insert into Employee values (6, "Philip","Mathew",750000, "01-JAN-13 12.00.00 AM","Services");
-insert into Employee values (7, "TestName1","123",650000, "01-JAN-13 12.00.00 AM","Services");
-insert into Employee values (8, "TestName2","Lname%",600000, "01-FEB-13 12.00.00 AM","Insurance");
+insert into Employee values (1, "John","Abraham",1000000, "2013-01-01 12:00:00","Banking");
+insert into Employee values (2, "Michael","Clarke",800000, "2013-01-01 12:00:00","Insurance");
+insert into Employee values (3, "Roy","Thomas",700000, "2013-02-01 12:00:00","Banking");
+insert into Employee values (4, "Tom","Jose",600000, "2013-02-01 12:00:00","Insurance");
+insert into Employee values (5, "Jerry","Pinto",650000, "2013-02-01 12:00:00","Insurance");
+insert into Employee values (6, "Philip","Mathew",750000, "2013-01-01 12:00:00","Services");
+insert into Employee values (7, "TestName1","123",650000, "2013-01-01 12:00:00","Services");
+insert into Employee values (8, "TestName2","Lname%",600000, "2013-02-01 12:00:00","Insurance");
 ```
 
 ![](incentive-table.jpg)
